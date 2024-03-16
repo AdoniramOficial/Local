@@ -1,0 +1,47 @@
+@charset "utf-8";
+body {
+	background-image: url(anime.gif);
+    background-size: cover;
+	 background-repeat: no-repeat;
+	color:white;
+	}
+#contenedor{background-color: beige;
+	width:800px;
+	height:1500px;
+	margin: auto;
+	color: white;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+header{background-image: url(fondo3.gif);
+    background-size: cover;
+	 background-repeat: no-repeat;
+	width: 800px;
+	height: 150px;
+	font-size: 50px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+section{
+	background-color: black;
+	width:500px;
+	height:1300px;
+	float: left;
+}
+nav{
+	width: 800px;
+	height: 50px;
+	float: left;
+}
+aside{
+	background-image: url(8sac.gif);
+    background-size: cover;
+	 background-repeat: no-repeat;
+	width:200px;
+	height:1300px;
+	float: right;
+	align-content: flex-start;
+}
+footer{
+	clear: both;
+}
